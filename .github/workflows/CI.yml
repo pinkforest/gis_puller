@@ -97,7 +97,7 @@ jobs:
           command: test
           args: --benches ${{ matrix.features }}
 
- doc:
+  doc:
     name: Build docs
     needs: [style, test]
     runs-on: ubuntu-latest
