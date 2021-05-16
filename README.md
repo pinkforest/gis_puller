@@ -8,14 +8,14 @@ gis_puller
 
 This Rust crate aims to abstract and implement a general global Geographic Information System (GIS) data catalog and acquisition functionality.
 
-This crate should be considered unstable including the interface definitions.
-
-This crate does not provide any transformations for these acquired datasets and the catalog will follow the data provider derived structural separations.
+Acquired catalog will follow the data provider derived structural separations as-is.
 
 To build on top the below crates can be in future used to consume the acquired data and beyond:
 
 - gis_loader will be available to load/transform these acquired dataset(s) by this crate into various data stores
 - gis_api will be available to provide gRPC API to consume the loaded dataset(s)
+
+Everything should be considered unstable including the interface definitions.
 
 ## GIS Data Sources Supported
 
