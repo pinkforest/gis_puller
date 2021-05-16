@@ -1,0 +1,15 @@
+language: rust
+rust:
+  - stable
+  - beta
+  - nightly
+jobs:
+  allow_failures:
+    - rust: nightly
+  fast_finish: true
+env:
+  - GIS_CONFIG_PATH: config
+  - TEST_DATA_PATH: test_data
+  - RUN_MODE: development
+script:
+  - cargo test --verbose
