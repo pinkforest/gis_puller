@@ -1,0 +1,9 @@
+# AU Rules to fetch various GEO Data
+# Mock will override the tcp/9000 port
+
+[fetcher_matcher]
+catalog = "locality/boundary"
+rest_url = "http://localhost:9000/replay/data.gov.au/api/v0/search/datasets"
+query = "locality boundaries"
+matcher = '^https://data.gov.au/data(?:(/dataset|set))/[a-f0-9\-]+/resource/[a-f0-9\-]+/download/[A-Za-z0-9_]+(?:([_\-]?gda[0-9]*|)).zip$'
+
