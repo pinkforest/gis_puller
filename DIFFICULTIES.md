@@ -1,7 +1,12 @@
 Difficulties
 ============
 
-## Australia
+## Australia - REST API via data.gov.au
+
+Data produced by Geoscape AU
+Locality boundaries:
+
+https://data.gov.au/api/v0/search/datasets?query=locality%20boundaries
 
 There is a wild difference in catalog for the locality/boundary:
 
@@ -15,3 +20,7 @@ Why did not data.gov.au implement named resource locations and enforce that? Goo
 I would love to see enforced semantics like:
 
 https://data.gov.au/data/provider/geoscape/set/boundaries/locality/nsw/[gda/[94|2020]|geojson]]
+
+## New Zealand
+
+## ..
