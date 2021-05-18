@@ -14,6 +14,10 @@ doc_comment::doctest!("../README.md");
 
 #[macro_use] extern crate quick_error;
 
+/// https://crates.io/crates/rstest_reuse - See Cavelets                                                                                                                                                  
+#[cfg(test)]
+use rstest_reuse;
+
 //#[macro_use]
 //mod macros;
 

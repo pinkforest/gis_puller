@@ -12,6 +12,7 @@ struct Distribution {
 }
 
 impl Distribution {
+  /// fetcher_matcher regex match for downloadURL
   fn am_i_right(self: &Self, r: &Regex) -> bool {
     return r.is_match(&self.downloadURL);
   }
@@ -42,11 +43,14 @@ use crate::settings::MatcherSettingsDerive;
 
 quick_error! {
   #[derive(Debug)]
+  /// FetcherMatcherError combines all the errors returned from fetcher_matcher
   pub enum FetcherMatcherError {
+    /// All API Errors from reqwest
     API(err: reqwest::Error) {
       display("{}", err)
       from()
     }
+    /// All IO errors
     Io(err: std::io::Error) {
       source(err)
       from()
