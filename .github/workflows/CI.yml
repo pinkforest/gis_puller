@@ -3,7 +3,7 @@ on:
   pull_request:
   push:
     branches:
-      - master
+      - main
 env:
   RUST_BACKTRACE: 1
 
@@ -47,6 +47,7 @@ jobs:
       TEST_DATA_PATH: test_data
       RUN_MODE: development
       RUST_BACKTRACE: 1
+
     strategy:
       matrix:
         rust:
