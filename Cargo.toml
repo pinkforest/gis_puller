@@ -1,8 +1,22 @@
+[badges]
+maintenance = { status = "actively-developed" }
+
 [package]
 name = "gis_puller"
 version = "0.1.0"
-authors = ["foobar"]
+authors = ["pinkforest"]
+description = "Geographic Information System (GIS) datasets acquisition library."
+homepage = "https://github.com/pinkforest/gis_puller"
+keywords = ["gis", "acquisition", "catalog"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/pinkforest/gis_puller"
+categories = ["science"]
 edition = "2018"
+# Minimum Supported Rust Version (MSRV)
+# RFC 2495 https://github.com/rust-lang/rfcs/blob/master/text/2495-min-rust-version.md
+# @TODO 1.46 units funky settings - 1.46 MSRV from deps.
+rust = "1.47"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
