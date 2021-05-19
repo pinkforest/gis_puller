@@ -54,7 +54,7 @@ jobs:
           - stable
           - beta
           - nightly
-          - 1.50
+          - 1.46
 
         os:
           - ubuntu-latest
