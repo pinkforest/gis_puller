@@ -28,7 +28,7 @@ Everything should be considered unstable including the interface definitions.
 - Suburb/Locality Boundaries: Australia  (GDA94, GDA2020, GeoJSON)
 - Address Forward/Reverse Lookup Data: Australia (GNAF)
 
-Also see [DIFFICULTIES.md]
+Also see DIFFICULTIES.md
 
 ## Environment Variables
 
