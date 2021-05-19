@@ -2,11 +2,11 @@ gis_puller
 ==========
 
 [![CI](https://github.com/pinkforest/gis_puller/actions/workflows/CI.yml/badge.svg)](https://github.com/pinkforest/gis_puller/actions/workflows/CI.yml)
-[![Crates.io](svg)](@TODO:link)
-[![Docs](svg)](@TODO:link)
+[![Crates.io](http://meritbadge.herokuapp.com/gis_puller)](https://crates.io/crates/gis_puller)
+[![Docs](https://docs.rs/gis_puller/badge.svg)](https://docs.rs/gis_puller)
+[![Deps](https://deps.rs/repo/github/pinkforest/gis_puller/status.svg)](https://deps.rs/repo/github/pinkforest/gispuller)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Dependencies](svg)](https://deps.rs/repo/github/rust-lang/cargo)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This Rust crate aims to abstract and implement a general global Geographic Information System (GIS) data catalog and acquisition functionality.
 
