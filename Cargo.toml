@@ -18,6 +18,10 @@ serde_json = "1.0.64"
 state = "0.4.2"
 validator = { version = "0.13.0", features = ["derive", "unic"] }
 
+[features]
+full = []
+nightly = []
+
 [dev-dependencies]
 tokio = { version = "1.5.0", features = ["full"] }
 rstest = "0.10.0"
