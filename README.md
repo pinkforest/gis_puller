@@ -7,6 +7,7 @@ gis_puller
 [![Deps](https://deps.rs/repo/github/pinkforest/gis_puller/status.svg)](https://deps.rs/repo/github/pinkforest/gispuller)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![MSRV](https://img.shields.io/badge/MSRV-1.47.0-blue)
 
 This Rust crate aims to abstract and implement a general global Geographic Information System (GIS) data catalog and acquisition functionality.
 
