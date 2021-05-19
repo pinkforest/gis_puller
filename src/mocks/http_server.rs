@@ -11,9 +11,9 @@ use state::Storage;
 // @NOTE regression tokio::fs: https://github.com/tokio-rs/tokio/issues/1844
 /// Re-uses a mock HTTP Server from a pool using httpmock MockServer and returns it
 pub async fn serve() -> Result<MockServer, Box<dyn std::error::Error>> {
-
-  // @TODO: Make this a macro_rules!
-  let server = MockServer::start_async().await;
-  
-  Ok(server)
+    
+    // @TODO: Make this a macro_rules!
+    let server = MockServer::start_async().await;
+    
+    Ok(server)
 }
