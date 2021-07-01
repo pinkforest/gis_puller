@@ -2,7 +2,7 @@ gis_puller
 ==========
 
 [![CI](https://github.com/pinkforest/gis_puller/actions/workflows/CI.yml/badge.svg)](https://github.com/pinkforest/gis_puller/actions/workflows/CI.yml)
-[![Crates.io](http://meritbadge.herokuapp.com/gis_puller)](https://crates.io/crates/gis_puller)
+[![Crates.io](https://img.shields.io/crates/v/gis_puller.svg)](https://crates.io/crates/gis_puller)
 [![Docs](https://docs.rs/gis_puller/badge.svg)](https://docs.rs/gis_puller)
 [![Deps](https://deps.rs/repo/github/pinkforest/gis_puller/status.svg)](https://deps.rs/repo/github/pinkforest/gis_puller)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
