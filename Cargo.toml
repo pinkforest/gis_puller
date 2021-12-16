@@ -3,7 +3,7 @@ maintenance = { status = "actively-developed" }
 
 [package]
 name = "gis_puller"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["pinkforest"]
 description = "Geographic Information System (GIS) datasets acquisition library."
 homepage = "https://github.com/pinkforest/gis_puller"
@@ -23,12 +23,12 @@ rust = "1.47"
 [dependencies]
 # camino = "1.0.4" in future if we want to enforce UTF-8 paths
 config = "0.11.0"
-once_cell = "1.7.2"
+once_cell = "1.9.0"
 quick-error = "2.0.1"
 regex = "1.5.4"
-reqwest = { version = "0.11.3", features = ["json"] }
-serde = { version = "1.0.125", features = ["derive"] }
-serde_json = "1.0.64"
+reqwest = { version = "0.11.7", features = ["json"] }
+serde = { version = "1.0.131", features = ["derive"] }
+serde_json = "1.0.73"
 state = "0.5.2"
 validator = { version = "0.14.0", features = ["derive", "unic"] }
 
@@ -37,7 +37,7 @@ full = []
 nightly = []
 
 [dev-dependencies]
-tokio = { version = "1.5.0", features = ["full"] }
+tokio = { version = "1.15.0", features = ["full"] }
 rstest = "0.12.0"
 rstest_reuse = "0.1.3"
 httpmock = "0.6.4"

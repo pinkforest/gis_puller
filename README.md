@@ -68,7 +68,6 @@ cargo clippy --all-targets --all-features
 ```
 
 Run [tarpaulin](https://github.com/xd009642/tarpaulin) for code/examples test coverage
-__BROKEN: Waiting fix on [httpmock/issues/#45](https://github.com/alexliesenfeld/httpmock/issues/45) workaround manually with the Cargo env__
 ```bash
 env GIS_CONFIG_PATH=config TEST_DATA_PATH=test_data RUN_MODE=development cargo +nightly tarpaulin --run-types Tests,Doctests,Benchmarks,Examples,Lib,Bins -v
 ```
