@@ -49,7 +49,7 @@ Or edit Cargo.toml by hand:
 
 ```toml
 [dependencies]
-gis_puller = "0.1.0"
+gis_puller = "0.1.1"
 ```
 
 Create documentation
