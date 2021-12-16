@@ -1,7 +1,6 @@
 //! HTTP Server Mock provides httpmock MockServer instance for development testing
 use httpmock::MockServer;
 use httpmock::Method::GET;
-use httpmock::MockRef;
 use tokio::io::{self, AsyncReadExt};
 use tokio::fs::File;
 use std::path::Path;
